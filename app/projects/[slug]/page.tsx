@@ -379,7 +379,7 @@ export default function ProjectPage({ params }: PageProps) {
           <div className="space-y-8">
             {project.slug === "android-apps" && (
               <div className="mb-6">
-                <h2 className="text-xl font-bold tracking-tight text-text-primary">Bountees' Kitchen</h2>
+                <h2 className="text-xl font-bold tracking-tight text-text-primary">Bountees&apos; Kitchen</h2>
                 <p className="mt-1 text-sm text-text-secondary">A point of sale app for canteen</p>
               </div>
             )}
