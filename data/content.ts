@@ -7,7 +7,7 @@ export const profile = {
   /** Decorative check mark beside your name; set false to hide. */
   verified: true,
   location: "Tandag City, Surigao Del Sur",
-  tagline: "AI \\ Graphic designer \\ Full-stack developer",
+  tagline: "Graphic Designer • Full-Stack Developer • AI Enthusiast",
   headline: "",
   email: "johndelacuesta5@gmail.com",
   phone: "+63 906 463 4580",
