@@ -244,7 +244,6 @@ export default function Home() {
                     <Link
                       key={p.slug}
                       href={`/projects/${p.slug}`}
-                      target="_blank"
                       className="group flex h-full flex-col rounded-2xl border border-border bg-surface p-5 shadow-1 transition-all duration-normal hover:shadow-2 hover:border-border-strong hover:-translate-y-0.5"
                     >
                       <div className="flex flex-wrap gap-1.5 mb-2">
