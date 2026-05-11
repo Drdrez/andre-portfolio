@@ -13,7 +13,7 @@ export const profile = {
   phone: "+63 906 463 4580",
   /** Calendly (https://…) or `#contact` for footer. */
   scheduleUrl: "#contact",
-  imageSrc: "/profile.jpg",
+  imageSrc: "/profile-2.png",
 };
 
 export const projectItems: {
