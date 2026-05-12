@@ -187,6 +187,11 @@ export const experience = [
     org: "Dre Graphx",
   },
   {
+    year: "2023",
+    title: "Graphic Designer",
+    org: "Makers Avenue",
+  },
+  {
     year: "2025",
     title: "Graphic Designer & Developer",
     org: "TAC Pro",
