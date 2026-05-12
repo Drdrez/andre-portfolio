@@ -377,7 +377,13 @@ export default function ProjectPage({ params }: PageProps) {
                 <p className="mt-1 text-sm text-text-secondary">A point of sale app for canteen</p>
               </div>
             )}
-            <PinterestGallery items={gallery} columns={project.slug === "android-apps" ? 2 : 3} />
+            {project.slug === "ui-ux-design" && (
+              <div className="mb-6">
+                <h2 className="text-xl font-bold tracking-tight text-text-primary">UNIVENTS</h2>
+                <p className="mt-1 text-sm text-text-secondary">A conceptual prototype for the ADDU Events mobile application</p>
+              </div>
+            )}
+            <PinterestGallery items={gallery} columns={project.slug === "android-apps" || project.slug === "ui-ux-design" ? 2 : 3} />
           </div>
         ) : (
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 lg:items-start">

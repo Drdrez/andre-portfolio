@@ -60,7 +60,8 @@ export default function Home() {
                     alt={`Portrait of ${profile.name}`}
                     fill
                     className="object-cover"
-                    sizes="112px"
+                    sizes="256px"
+                    quality={100}
                     priority
                   />
                 </div>
