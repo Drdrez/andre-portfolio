@@ -25,7 +25,7 @@ export const projectItems: {
 }[] = [
   {
     slug: "social-media-designs",
-    title: "Social media designs",
+    title: "Social Media Designs",
     description:
       "Feeds, carousels, and campaign assets aligned to platform specs and brand voice. Every piece is crafted to stop the scroll while staying true to the client's visual identity.",
     mockupColor: "#6366f1",
@@ -33,7 +33,7 @@ export const projectItems: {
   },
   {
     slug: "poster-designs",
-    title: "Poster designs",
+    title: "Poster Designs",
     description:
       "Events, promos, and print-ready layouts tuned for quick scanning. From concept to press-ready files with bleed marks and color-safe exports.",
     mockupColor: "#ec4899",
@@ -41,7 +41,7 @@ export const projectItems: {
   },
   {
     slug: "logo-identity",
-    title: "Logo & identity",
+    title: "Logo & Identity",
     description:
       "Marks and light systems that stay clear from favicon to print. Full brand kits with color codes, type pairings, and usage guidelines.",
     mockupColor: "#f59e0b",
@@ -49,15 +49,15 @@ export const projectItems: {
   },
   {
     slug: "merch-designs",
-    title: "Merch designs",
+    title: "Merch Designs",
     description:
       "Graphics ready for vendors with clean layers and production notes. T-shirts, stickers, mugs — all exported in vendor-ready formats.",
     mockupColor: "#10b981",
     tags: ["Merchandise", "Print", "Production"],
   },
   {
-    slug: "mobile-app-design",
-    title: "Mobile app design",
+    slug: "ui-ux-design",
+    title: "UI/UX Design",
     description:
       "Flows and UI kits that balance clarity with personality. End-to-end mobile experiences from wireframes to high-fidelity prototypes with interactive components.",
     mockupColor: "#8b5cf6",
@@ -65,7 +65,7 @@ export const projectItems: {
   },
   {
     slug: "android-apps",
-    title: "Android apps",
+    title: "Android Apps",
     description:
       "Material-aware layouts and performance-minded structure. Native Android applications built with modern architecture patterns and smooth animations.",
     mockupColor: "#3b82f6",
@@ -78,6 +78,14 @@ export const projectItems: {
       "Responsive marketing sites and apps with accessible components. From landing pages to full-stack web applications — pixel-perfect and performant.",
     mockupColor: "#14b8a6",
     tags: ["Web", "React", "Next.js"],
+  },
+  {
+    slug: "gohighlevel-funnels",
+    title: "GoHighLevel Funnels",
+    description:
+      "High-converting sales funnels and landing pages built on GoHighLevel. Optimized for lead generation with seamless CRM integration, automated follow-ups, and conversion-focused design.",
+    mockupColor: "#f97316",
+    tags: ["Funnels", "GoHighLevel", "Marketing"],
   },
 ];
 
