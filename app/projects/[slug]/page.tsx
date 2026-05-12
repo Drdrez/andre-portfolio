@@ -28,25 +28,14 @@ const designSlugs = new Set([
   "logo-identity",
   "merch-designs",
   "android-apps",
+  "ui-ux-design",
 ]);
 
-/* ── Mobile app slug ── */
-const mobileSlugs = new Set(["mobile-app-design"]);
+/* ── (Phone showcase removed — UI/UX screens now display as plain gallery images) ── */
+const mobileSlugs = new Set<string>([]);
 
-/* ── Phone screens per mobile project ── */
-const phoneScreens: Record<string, { name: string; subtitle: string; screens: { label: string; src: string }[] }[]> = {
-  "mobile-app-design": [
-    {
-      name: "UNIVENTS",
-      subtitle: "A conceptual prototype for the ADDU Events mobile application",
-      screens: [
-        { label: "Log In", src: "/projects/mobile-app-design/univents/log-in-page-compressify.io.jpg" },
-        { label: "Dashboard", src: "/projects/mobile-app-design/univents/dashboard-compressify.io.jpg" },
-        { label: "Event Details", src: "/projects/mobile-app-design/univents/it-week-details-compressify.io.jpg" },
-      ],
-    },
-  ],
-};
+/* ── Phone screens per mobile project (deprecated — kept for reference) ── */
+const phoneScreens: Record<string, { name: string; subtitle: string; screens: { label: string; src: string }[] }[]> = {};
 
 /* ── Website URLs per web project ── */
 const websiteUrls: Record<string, { title: string; url: string }[]> = {
@@ -71,6 +60,11 @@ const galleryData: Record<string, GalleryItem[]> = {
     { thumb: "/projects/mobile-app-design/bountees-kitchen/image_6.png", slides: ["/projects/mobile-app-design/bountees-kitchen/image_6.png"] },
     { thumb: "/projects/mobile-app-design/bountees-kitchen/image_7.png", slides: ["/projects/mobile-app-design/bountees-kitchen/image_7.png"] },
     { thumb: "/projects/mobile-app-design/bountees-kitchen/image_8.png", slides: ["/projects/mobile-app-design/bountees-kitchen/image_8.png"] },
+  ],
+  "ui-ux-design": [
+    { thumb: "/projects/mobile-app-design/univents/log-in-page-compressify.io.jpg", slides: ["/projects/mobile-app-design/univents/log-in-page-compressify.io.jpg"] },
+    { thumb: "/projects/mobile-app-design/univents/dashboard-compressify.io.jpg", slides: ["/projects/mobile-app-design/univents/dashboard-compressify.io.jpg"] },
+    { thumb: "/projects/mobile-app-design/univents/it-week-details-compressify.io.jpg", slides: ["/projects/mobile-app-design/univents/it-week-details-compressify.io.jpg"] },
   ],
   "social-media-designs": [
     // Carousel sets — grid shows first image, click opens full carousel
