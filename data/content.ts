@@ -124,7 +124,7 @@ export const tools: { name: string; iconSrc: string }[] = [
   {
     name: "Canva",
     iconSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg",
+      "https://cdn.brandfetch.io/id9mVQlyB1/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1725863485997",
   },
   {
     name: "Premiere Pro",
