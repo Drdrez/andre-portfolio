@@ -44,6 +44,11 @@ const websiteUrls: Record<string, { title: string; url: string }[]> = {
     { title: "GN Travel Marketing", url: "https://gntravelmarketing.com/" },
     { title: "Travel Agent Content Pro", url: "https://community.travelagentcontentpro.com/travelagentcontentpro" },
   ],
+  "gohighlevel-funnels": [
+    { title: "Travel VA", url: "https://services.gntravelmarketing.com/travelvirtualassistant" },
+    { title: "GN Travel Marketing", url: "https://gntravelmarketing.com/" },
+    { title: "Travel Agent Content Pro", url: "https://community.travelagentcontentpro.com/travelagentcontentpro" },
+  ],
 };
 
 /* ── Gallery items per design category ── */
