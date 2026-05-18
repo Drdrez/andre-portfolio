@@ -292,10 +292,16 @@ function WebsiteShowcase({ sites }: { sites: { title: string; url: string }[] })
               </span>
             </div>
             {/* Iframe */}
-            <div className="w-full aspect-[16/10] sm:aspect-[16/9] bg-white relative">
+            <div className="w-full aspect-[16/10] sm:aspect-[16/9] bg-white relative overflow-hidden">
               <iframe
                 src={site.url}
-                className="absolute inset-0 w-full h-full border-0"
+                className="absolute inset-0 border-0"
+                style={{
+                  width: "133.33%",
+                  height: "133.33%",
+                  transform: "scale(0.75)",
+                  transformOrigin: "0 0"
+                }}
                 title={site.title}
                 loading="lazy"
                 sandbox="allow-scripts allow-same-origin"

@@ -206,7 +206,7 @@ export default function Home() {
                           alt=""
                           width={26}
                           height={26}
-                          className="size-[26px] shrink-0 object-contain"
+                          className={`size-[26px] shrink-0 object-contain ${tool.name === 'Canva' ? 'rounded-[0.25rem]' : ''}`}
                           loading="lazy"
                           unoptimized
                         />

@@ -129,7 +129,7 @@ export const tools: { name: string; iconSrc: string }[] = [
   {
     name: "Premiere Pro",
     iconSrc:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
   },
   {
     name: "CapCut",
