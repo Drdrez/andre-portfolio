@@ -194,7 +194,12 @@ export const experience = [
   {
     year: "2025-Present",
     title: "Graphic Designer & Developer",
-    org: "TAC PRO & GN TRAVEL MARKETING LLC",
+    org: "TAC PRO",
+  },
+  {
+    year: "2025-Present",
+    title: "Graphic Designer & Developer",
+    org: "GN TRAVEL MARKETING LLC",
   },
 ];
 
