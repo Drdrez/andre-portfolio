@@ -314,7 +314,7 @@ export default function Home() {
             {/* Sidebar — sticky, compact experience (vertical timeline line) */}
             <aside className="mt-16 min-w-0 border-t border-border pt-12 lg:mt-0 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
               <div className="space-y-8 lg:sticky lg:top-24 lg:space-y-10">
-                <div className="rounded-2xl bg-text-primary px-5 py-6 text-interactive-contrast shadow-3">
+                <div className="rounded-2xl bg-gradient-to-br from-black via-gray-800 to-black animate-gradient-shift px-5 py-6 text-white shadow-3">
                   <p className="text-xs font-semibold uppercase tracking-wider opacity-70">
                     Working style
                   </p>
