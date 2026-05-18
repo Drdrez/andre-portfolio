@@ -12,7 +12,7 @@ export const profile = {
   email: "johndelacuesta5@gmail.com",
   phone: "+63 906 463 4580",
   /** Calendly (https://…) or `#contact` for footer. */
-  scheduleUrl: "#contact",
+  scheduleUrl: "https://calendly.com/johndelacuesta5/new-meeting",
   imageSrc: "/profile-2.png",
 };
 
@@ -192,9 +192,9 @@ export const experience = [
     org: "Makers Avenue",
   },
   {
-    year: "2025",
+    year: "2025-Present",
     title: "Graphic Designer & Developer",
-    org: "TAC Pro",
+    org: "TAC PRO & GN TRAVEL MARKETING LLC",
   },
 ];
 
@@ -206,7 +206,8 @@ export const aboutParagraphs = [
 
 export const social = {
   linkedin: "",
-  github: "",
+  github: "https://github.com/Drdrez",
+  facebook: "https://www.facebook.com/johnandre.delacuesta",
   instagram: "",
   behance: "",
 };
