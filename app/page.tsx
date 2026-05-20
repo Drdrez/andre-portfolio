@@ -26,7 +26,7 @@ function InitialsAvatar() {
       : (parts[0]?.slice(0, 2).toUpperCase() ?? "?");
   return (
     <div
-      className="flex aspect-square w-20 sm:w-[8.5rem] items-center justify-center rounded-lg border border-dashed border-border bg-surface-raised text-2xl font-semibold tracking-tight text-text-muted"
+      className="flex aspect-square w-[6.5rem] sm:w-[8.5rem] items-center justify-center rounded-lg border border-dashed border-border bg-surface-raised text-2xl font-semibold tracking-tight text-text-muted"
       aria-hidden
     >
       {letters}
@@ -54,13 +54,13 @@ export default function Home() {
           <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10">
             <div className="flex flex-row items-start gap-4 sm:gap-6">
               {profile.imageSrc ? (
-                <div className="relative aspect-square w-20 sm:w-[8.5rem] shrink-0 overflow-hidden rounded-lg border border-border shadow-2">
+                <div className="relative aspect-square w-[6.5rem] sm:w-[8.5rem] shrink-0 overflow-hidden rounded-lg border border-border shadow-2">
                   <Image
                     src={profile.imageSrc}
                     alt={`Portrait of ${profile.name}`}
                     fill
                     className="object-cover"
-                    sizes="(max-width: 640px) 80px, 136px"
+                    sizes="(max-width: 640px) 104px, 136px"
                     quality={100}
                     priority
                   />
@@ -72,17 +72,17 @@ export default function Home() {
                 <div className="absolute right-0 top-0 z-10">
                   <ThemeToggle />
                 </div>
-                <h1 className="flex flex-wrap items-center gap-x-2 gap-y-1 pr-10 text-pretty text-xl font-bold tracking-tight text-text-primary sm:pr-12 sm:text-2xl">
+                <h1 className="flex items-center gap-1.5 text-[17px] xs:text-lg sm:text-2xl font-bold tracking-tight text-text-primary whitespace-nowrap">
                   <span>{profile.name}</span>
                   {profile.verified ? (
                     <VerifiedBadge
-                      className="translate-y-px"
+                      className="translate-y-px shrink-0"
                       label="Verified"
                     />
                   ) : null}
                 </h1>
-                <p className="mt-1 flex items-start gap-1.5 text-xs text-text-secondary">
-                  <span className="mt-0.5 text-text-muted" aria-hidden>
+                <p className="mt-1 flex items-center gap-1.5 text-xs text-text-secondary">
+                  <span className="text-text-muted" aria-hidden>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -99,7 +99,7 @@ export default function Home() {
                   </span>
                   <span>{profile.location}</span>
                 </p>
-                <p className="mt-1 max-w-xl text-xs font-medium text-text-tertiary">
+                <p className="mt-1 whitespace-nowrap text-[9.5px] xs:text-[11px] sm:text-xs font-medium tracking-tight text-text-tertiary">
                   {profile.tagline}
                 </p>
                 <div className="mt-3 flex flex-row flex-wrap gap-2">
