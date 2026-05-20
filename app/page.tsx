@@ -26,7 +26,7 @@ function InitialsAvatar() {
       : (parts[0]?.slice(0, 2).toUpperCase() ?? "?");
   return (
     <div
-      className="flex aspect-square w-full max-w-[11rem] items-center justify-center rounded-lg border border-dashed border-border bg-surface-raised text-2xl font-semibold tracking-tight text-text-muted"
+      className="flex aspect-square w-20 sm:w-[8.5rem] items-center justify-center rounded-lg border border-dashed border-border bg-surface-raised text-2xl font-semibold tracking-tight text-text-muted"
       aria-hidden
     >
       {letters}
@@ -52,15 +52,15 @@ export default function Home() {
           className="border-b border-border bg-surface bg-[linear-gradient(180deg,var(--color-surface-raised)_0%,transparent_50%)]"
         >
           <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-10">
-            <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:gap-6">
+            <div className="flex flex-row items-start gap-4 sm:gap-6">
               {profile.imageSrc ? (
-                <div className="relative aspect-square w-full max-w-[8.5rem] shrink-0 overflow-hidden rounded-lg border border-border shadow-2">
+                <div className="relative aspect-square w-20 sm:w-[8.5rem] shrink-0 overflow-hidden rounded-lg border border-border shadow-2">
                   <Image
                     src={profile.imageSrc}
                     alt={`Portrait of ${profile.name}`}
                     fill
                     className="object-cover"
-                    sizes="256px"
+                    sizes="(max-width: 640px) 80px, 136px"
                     quality={100}
                     priority
                   />
@@ -102,7 +102,7 @@ export default function Home() {
                 <p className="mt-1 max-w-xl text-xs font-medium text-text-tertiary">
                   {profile.tagline}
                 </p>
-                <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+                <div className="mt-3 flex flex-row flex-wrap gap-2">
                   <a
                     href={profile.scheduleUrl}
                     {...(/^https?:\/\//i.test(profile.scheduleUrl)
